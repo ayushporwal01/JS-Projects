@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
            return
         }
 
-        addTaskBtn(taskInput.value)
+        addTask(taskInput.value)
         taskInput.value = ""
     })
 
