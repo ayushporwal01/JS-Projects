@@ -71,6 +71,14 @@ input {
     background-color: #dc3545;
     padding: 5px;
     color: white;
+    border-radius: 4px;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    padding: 5px;
+    color: white;
+    border-radius: 4px;
 }
 
 .edit-btn:hover {
