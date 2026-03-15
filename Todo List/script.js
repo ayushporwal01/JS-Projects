@@ -36,8 +36,8 @@ document.addEventListener('DOMContentLoaded', () => {
         li.innerHTML = 
         `<span>${taskText}</span>
         <div>
-           <button class ="edit-btn">Edit</button>
-           <button class ="delete-btn">Delete</button>
+           <button class="edit-btn">Edit</button>
+           <button class="delete-btn">Delete</button>
         </div>
         `
 
