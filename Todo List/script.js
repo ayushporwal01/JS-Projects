@@ -35,5 +35,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 li.querySelector("span").innerHTML = newText
             }
         })
+     
+        li.querySelector("#delete-btn").addEventListener("click", () => {
+            const newText = prompt("Edit your task: ", taskText)
+
+            if(newText) {
+                li.querySelector("span").innerHTML = newText
+            }
+        })
     }
 })
