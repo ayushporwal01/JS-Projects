@@ -25,5 +25,8 @@ document.addEventListener('DOMContentLoaded', () => {
            <button id="delete-btn">Delete</button>
         </div>
         `
+
+        taskList.appendChild(li)
+        
     }
 })
