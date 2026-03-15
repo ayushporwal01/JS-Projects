@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
         taskInput.value = ""
     })
 
-    addTaskBtn.addEventListener("keydown", (e) => {
+    taskInput.addEventListener("keydown", (e) => {
         if(e.key === 'Enter') {
            addTask()
         }
