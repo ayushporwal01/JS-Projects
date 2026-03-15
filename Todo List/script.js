@@ -10,7 +10,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // Load tasks when page opens
     tasks.forEach(task => addTask(task))
 
-
     addTaskBtn.addEventListener("click", () => {
         if(taskInput.value.trim() === "") {
            alert("Please enter a task!")
@@ -24,12 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
         saveTasks()
 
         taskInput.value = ""
-    })
-
-    taskInput.addEventListener("keydown", (e) => {
-        if(e.key === 'Enter') {
-           addTask()
-        }
     })
 
     function addTask(taskText) {
