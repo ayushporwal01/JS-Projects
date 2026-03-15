@@ -45,6 +45,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if(newText) {
                 li.querySelector("span").innerHTML = newText
+            
+                tasks = tasks.map(task => 
+                    task ==== taskText ? newText : task
+                )
             }
         })
      
