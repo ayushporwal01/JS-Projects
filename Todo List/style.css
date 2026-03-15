@@ -54,10 +54,10 @@ input {
 }
 
 #task-list li {
-    display: flex;
-    justify-content: space-between;
     width: 310px;
     background: #fff;
+    display: flex;
+    justify-content: space-between;
     margin: 5px auto;
     padding: 10px;
     border: 1px solid #ddd;
