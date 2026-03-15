@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const newText = prompt("Edit your task: ", taskText)
 
             if(newText) {
-                li.querySelector("span").innerHTML = newText
+                li.remove()
             }
         })
     }
