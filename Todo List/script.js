@@ -1,8 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const taskInput = document.getElementById('task-input')
     const addTaskBtn = document.getElementById('add-task-btn')
-    const editBtn = document.querySelector('.edit-btn')
-    const deleteBtn = document.querySelector('.delete-btn')
     const taskList = document.getElementById('task-list')
 
     let tasks = JSON.parse(localStorage.getItem("tasks")) || []
@@ -37,6 +35,9 @@ document.addEventListener('DOMContentLoaded', () => {
         `
 
         taskList.appendChild(li)
+
+        const editBtn = document.querySelector('.edit-btn')
+        const deleteBtn = document.querySelector('.delete-btn')
 
         //Edit
         editBtn.addEventListener("click", () => {
