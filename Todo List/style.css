@@ -116,11 +116,11 @@ input {
 @media (min-width:601px){
 
     .btn-text{
-        display:none;
+        display:flex;
     }
 
     .icon{
-        display:block;
+        display:none;
     }
 }
 
