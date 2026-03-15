@@ -76,4 +76,8 @@ input {
     background-color: #e0a800;
 }
 
+#deleteBtn:hover {
+    background-color: #c82333;
+}
+
 
