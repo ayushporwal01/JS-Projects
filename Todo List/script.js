@@ -5,6 +5,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const deleteBtn = document.getElementById('delete-btn')
     const taskList = document.getElementById('task-list')
 
+    let tasks = JSON.parse(localStorage.getItem("tasks")) || []
+
     addTaskBtn.addEventListener("click", () => {
         if(taskInput.value.trim() === "") {
            alert("Please enter a task!")
