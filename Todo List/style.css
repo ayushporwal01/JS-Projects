@@ -102,6 +102,7 @@ input {
     width: 16px;
     filter: invert(1);
 }
+
 @media (max-width:600px){
 
     .btn-text{
@@ -116,7 +117,7 @@ input {
 @media (min-width:601px){
 
     .btn-text{
-        display:block;
+        display:flex;
     }
 
     .icon{
