@@ -109,7 +109,6 @@ input {
 }
 
 @media (max-width:600px){
-
     .btn-text{
         display:none;
     }
@@ -117,6 +116,5 @@ input {
     .icons{
         display:block;
     }
-
 }
 
