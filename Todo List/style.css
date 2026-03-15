@@ -60,5 +60,12 @@ input {
     border-radius: 4px;
 }
 
+#editBtn, #deleteBtn {
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+
 
 
