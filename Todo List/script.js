@@ -19,6 +19,10 @@ document.addEventListener('DOMContentLoaded', () => {
         
         taskText = taskInput.value
         addTask(taskText)
+
+        tasks.push(taskText)
+        saveTasks()
+
         taskInput.value = ""
     })
 
