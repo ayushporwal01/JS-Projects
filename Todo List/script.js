@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const li = document.createElement("li")
 
         li.innerHTML = 
-        `<span>{${taskText}</span>
+        `<span>${taskText}</span>
         <div>
            <button id="edit-btn">Edit</button>
            <button id="delete-btn">Delete</button>
