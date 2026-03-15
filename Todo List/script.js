@@ -33,7 +33,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if(newText) {
                 li.querySelector("span").innerHTML = newText
-                
             }
         })
     }
