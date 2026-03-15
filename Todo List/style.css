@@ -98,7 +98,10 @@ input {
     background-color: #288bac;
 }
 
-
+.icons {
+    width: 16px;
+    filter: invert(1);
+}
 
 @media (max-width: 600px) {
     
