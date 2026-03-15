@@ -63,6 +63,12 @@ document.addEventListener('DOMContentLoaded', () => {
         })
     }
 
+    taskInput.addEventListener('keydown', (e) => {
+        if(e.key === "Enter") {
+           addTask()
+        }
+    })
+
     function saveTasks() {
         localStorage.setItem("tasks", JSON.stringify(tasks))
     }
