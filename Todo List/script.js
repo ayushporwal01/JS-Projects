@@ -46,10 +46,11 @@ document.addEventListener('DOMContentLoaded', () => {
             if(newText) {
                 li.querySelector("span").innerHTML = newText
             
-                let tasks = tasks.map(task => 
+                tasks = tasks.map(task => 
                     task ==== taskText ? newText : task
                 )
             }
+            saveTasks()
         })
      
         //Delete
