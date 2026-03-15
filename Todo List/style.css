@@ -64,6 +64,11 @@ input {
     border-radius: 4px;
 }
 
+#task-list li span {
+    max-width: 60%;
+    overflow-wrap: break-word;
+}
+
 .edit-btn, .delete-btn {
     border: none;
     cursor: pointer;
