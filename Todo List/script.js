@@ -43,8 +43,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
         taskList.appendChild(li)
 
-        const editBtn = li.document.querySelector('.edit-btn')
-        const deleteBtn = li.document.querySelector('.delete-btn')
+        const editBtn = li.querySelector('.edit-btn')
+        const deleteBtn = li.querySelector('.delete-btn')
 
         //Edit
         editBtn.addEventListener("click", () => {
