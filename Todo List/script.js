@@ -42,19 +42,19 @@ document.addEventListener('DOMContentLoaded', () => {
             ? `<img src="icons/trash.svg" alt="delete" class="icons">` 
             : `Delete`
 
-       li.innerHTML = `
-<span>${taskText}</span>
-<div>
-   <button class="edit-btn">
-        <img src="icons/edit.svg" class="icon">
-        <span class="btn-text">Edit</span>
-   </button>
-   <button class="delete-btn">
-        <img src="icons/trash.svg" class="icon">
-        <span class="btn-text">Delete</span>
-   </button>
-</div>
-`
+            li.innerHTML = `
+                <span>${taskText}</span>
+                <div>
+                    <button class="edit-btn">
+                        <img src="icons/edit.svg" class="icon">
+                        <span class="btn-text">Edit</span>
+                    </button>
+                    <button class="delete-btn">
+                        <img src="icons/trash.svg" class="icon">
+                        <span class="btn-text">Delete</span>
+                    </button>
+                </div>
+            `
 
         taskList.appendChild(li)
 
