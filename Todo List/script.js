@@ -32,6 +32,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function addTask(taskText) {
         const li = document.createElement("li")
+        const isMobile = window.matchMedia("(max-width: 600px)").matches
+
+        const editLabel = isMobile ? "✏️" : "Edit"
+        const deleteLabel = isMobile ? "🗑️" : "Delete"
+
+        li.innerHTML = `
+        <span>${taskText}</span>
+        <div>
+        <button class="edit-btn">${editLabel}</button>
+        <button class="delete-btn">${deleteLabel}</button>
+        </div>
+        `
 
         li.innerHTML = 
         `<span>${taskText}</span>
