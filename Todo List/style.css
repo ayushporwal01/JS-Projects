@@ -69,7 +69,11 @@ input {
 #editBtn {
     background-color: #dc3545;
     padding: 5px;
+    color: white;
 }
 
+#editBtn:hover {
+    background-color: #e0a800;
+}
 
 
