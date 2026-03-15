@@ -34,22 +34,19 @@ document.addEventListener('DOMContentLoaded', () => {
         const li = document.createElement("li")
         const isMobile = window.matchMedia("(max-width: 600px)").matches
 
-        const editLabel = isMobile ? "✏️" : "Edit"
-        const deleteLabel = isMobile ? "🗑️" : "Delete"
+        const editContent = isMobile 
+            ? `<img src="icons/edit.png" alt="edit" width="16">` 
+            : `Edit`
+
+        const deleteContent = isMobile 
+            ? `<img src="icons/trash.png" alt="delete" width="16">` 
+            : `Delete`
 
         li.innerHTML = `
         <span>${taskText}</span>
         <div>
-        <button class="edit-btn">${editLabel}</button>
-        <button class="delete-btn">${deleteLabel}</button>
-        </div>
-        `
-
-        li.innerHTML = 
-        `<span>${taskText}</span>
-        <div>
-           <button class="edit-btn">Edit</button>
-           <button class="delete-btn">Delete</button>
+            <button class="edit-btn">${editContent}</button>
+            <button class="delete-btn">${deleteContent}</button>
         </div>
         `
 
