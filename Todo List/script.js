@@ -7,6 +7,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let tasks = JSON.parse(localStorage.getItem("tasks")) || []
 
+    // Load tasks when page opens
+    tasks.forEach(task => addTask(task))
+
+
     addTaskBtn.addEventListener("click", () => {
         if(taskInput.value.trim() === "") {
            alert("Please enter a task!")
