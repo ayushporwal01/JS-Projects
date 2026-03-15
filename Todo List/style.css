@@ -112,7 +112,6 @@ input {
     display:inline;
 }
 
-/* Mobile */
 @media (max-width:600px){
 
     .btn-text{
