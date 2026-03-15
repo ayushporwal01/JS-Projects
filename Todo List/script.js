@@ -32,16 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function addTask(taskText) {
         const li = document.createElement("li")
-        const isMobile = window.matchMedia("(max-width: 600px)").matches
-
-        const editContent = isMobile 
-            ? `<img src="icons/edit.svg" alt="edit" class="icons">` 
-            : `Edit`
-
-        const deleteContent = isMobile 
-        ? `<img src="icons/trash.svg" alt="delete" class="icons">` 
-        : `Delete`
-
+       
         li.innerHTML = `
             <span>${taskText}</span>
             <div>
