@@ -23,6 +23,13 @@ document.addEventListener('DOMContentLoaded', () => {
         taskInput.value = ""
     })
 
+    //Add Task On Enter Key
+    taskInput.addEventListener('keydown', (e) => {
+        if(e.key === "Enter") {
+           addTask()
+        }
+    })
+
     function addTask(taskText) {
         const li = document.createElement("li")
 
@@ -62,13 +69,6 @@ document.addEventListener('DOMContentLoaded', () => {
             saveTasks()
         })
     }
-
-    //Add Task On Enter Key
-    taskInput.addEventListener('keydown', (e) => {
-        if(e.key === "Enter") {
-           addTask()
-        }
-    })
 
     function saveTasks() {
         localStorage.setItem("tasks", JSON.stringify(tasks))
