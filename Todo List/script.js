@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <span class="btn-text">Edit</span>
                 </button>
                 <button class="delete-btn">
-                    <img src="icons/trash.svg" class="icon">
+                    <img src="icons/trash.svg" class="icons">
                     <span class="btn-text">Delete</span>
                 </button>
             </div>
