@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <span>${taskText}</span>
             <div>
                 <button class="edit-btn">
-                    <img src="icons/edit.svg" class="icon">
+                    <img src="icons/edit.svg" class="icons">
                     <span class="btn-text">Edit</span>
                 </button>
                 <button class="delete-btn">

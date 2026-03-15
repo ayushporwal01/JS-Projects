@@ -74,9 +74,6 @@ input {
     border: none;
     cursor: pointer;
     margin-left: 5px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
 }
 
 .edit-btn {
@@ -104,20 +101,27 @@ input {
 .icons {
     width: 16px;
     filter: invert(1);
-    display: none;
+}
+
+/* Desktop default */
+.icon{
+    display:none;
 }
 
 .btn-text{
     display:inline;
 }
 
+/* Mobile */
 @media (max-width:600px){
+
     .btn-text{
         display:none;
     }
 
-    .icons{
-        display: inline-block;
+    .icon{
+        display:block;
     }
+
 }
 
