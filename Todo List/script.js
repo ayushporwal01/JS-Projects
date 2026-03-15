@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 li.querySelector("span").innerHTML = newText
             
                 tasks = tasks.map(task => 
-                    task ==== taskText ? newText : task
+                    task === taskText ? newText : task
                 )
             }
             saveTasks()
