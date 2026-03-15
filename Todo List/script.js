@@ -26,6 +26,12 @@ document.addEventListener('DOMContentLoaded', () => {
         taskInput.value = ""
     })
 
+    addTaskBtn.addEventListener("keydown", (e) => {
+        if(e.key == 'Enter') {
+           addTask()
+        }
+    })
+
     function addTask(taskText) {
         const li = document.createElement("li")
 
