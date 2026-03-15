@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
            return
         }
         
-        taskText = taskInput.value
+        let taskText = taskInput.value
         addTask(taskText)
 
         tasks.push(taskText)
