@@ -56,6 +56,9 @@ document.addEventListener('DOMContentLoaded', () => {
         //Delete
         li.querySelector("#delete-btn").addEventListener("click", () => {
             li.remove()
+
+            tasks = tasks.filter(task => task != taskText)
+            saveTasks()
         })
     }
 })
