@@ -34,7 +34,7 @@ input {
     border-radius: 4px;
 }
 
-#addTaskBtn {
+#add-task-btn {
     padding: 8px 12px;
     border: none;
     background-color: #28a745;
@@ -43,15 +43,15 @@ input {
     border-radius: 4px;
 }
 
-#addTaskBtn:hover {
+#add-task-btn:hover {
     background-color: #218838;
 }
 
-#taskList {
+#task-list {
     list-style: none;
 }
 
-#taskList li {
+#task-list li {
     background: #fff;
     margin: 5px 0;
     padding: 10px;
@@ -61,23 +61,23 @@ input {
     border-radius: 4px;
 }
 
-#editBtn, #deleteBtn {
+#edit-btn, #delete-btn {
     border: none;
     cursor: pointer;
     margin-left: 5px;
 }
 
-#editBtn {
+#edit-btn {
     background-color: #dc3545;
     padding: 5px;
     color: white;
 }
 
-#editBtn:hover {
+#edit-btn:hover {
     background-color: #e0a800;
 }
 
-#deleteBtn:hover {
+#delete-btn:hover {
     background-color: #c82333;
 }
 
