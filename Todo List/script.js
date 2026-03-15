@@ -37,11 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
         })
      
         li.querySelector("#delete-btn").addEventListener("click", () => {
-            const newText = prompt("Edit your task: ", taskText)
-
-            if(newText) {
-                li.remove()
-            }
+         li.remove()
         })
     }
 })
