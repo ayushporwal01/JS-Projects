@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     addTaskBtn.addEventListener("click", () => {
         if(taskInput.value.trim() === "") {
            alert("Please enter a task!")
-           return;
+           return
         }
 
         addTaskBtn(taskInput.value)
