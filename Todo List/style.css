@@ -98,13 +98,30 @@ input {
     background-color: #288bac;
 }
 
-.icons {
+.icon {
     width: 16px;
     filter: invert(1);
 }
+@media (max-width:600px){
 
-@media (max-width: 600px) {
-    
+    .btn-text{
+        display:none;
+    }
+
+    .icon{
+        display:block;
+    }
+}
+
+@media (min-width:601px){
+
+    .btn-text{
+        display:none;
+    }
+
+    .icon{
+        display:block;
+    }
 }
 
 
