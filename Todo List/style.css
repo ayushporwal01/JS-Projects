@@ -52,6 +52,7 @@ input {
 }
 
 #task-list li {
+    max-width: 320px;
     background: #fff;
     margin: 5px 0;
     padding: 10px;
