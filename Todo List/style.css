@@ -115,8 +115,7 @@ input {
     }
 
     .icons{
-        display:block;
+        display: inline-block;
     }
-
 }
 
