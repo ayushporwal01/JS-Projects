@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
         })
      
         li.querySelector("#delete-btn").addEventListener("click", () => {
-         li.remove()
+            li.remove()
         })
     }
 })
