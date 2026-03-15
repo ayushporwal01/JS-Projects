@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 </button>
             </div>
         `
-        
+
         taskList.appendChild(li)
 
         const editBtn = li.querySelector('.edit-btn')

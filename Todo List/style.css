@@ -98,11 +98,21 @@ input {
     background-color: #288bac;
 }
 
-.icon {
+.icons {
     width: 16px;
     filter: invert(1);
 }
 
+/* Desktop default */
+.icons{
+    display:none;
+}
+
+.btn-text{
+    display:inline;
+}
+
+/* Mobile */
 @media (max-width:600px){
 
     .btn-text{
@@ -112,17 +122,6 @@ input {
     .icons{
         display:block;
     }
+
 }
-
-@media (min-width:601px){
-
-    .btn-text{
-        display:flex;
-    }
-
-    .icon{
-        display:none;
-    }
-}
-
 
