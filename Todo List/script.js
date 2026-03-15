@@ -10,5 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
            alert("Please enter a task!")
            return;
         }
+
+        addTaskBtn()
     })
 })
