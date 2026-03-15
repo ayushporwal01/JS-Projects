@@ -55,7 +55,7 @@ input {
 
 #task-list li {
     width: 100%;
-    max-width: 310px;
+    max-width: 300px;
     background: #fff;
     display: flex;
     justify-content: space-between;
