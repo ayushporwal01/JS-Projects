@@ -16,8 +16,9 @@ document.addEventListener('DOMContentLoaded', () => {
            alert("Please enter a task!")
            return
         }
-
-        addTask(taskInput.value)
+        
+        taskText = taskInput.value
+        addTask(taskText)
         taskInput.value = ""
     })
 
