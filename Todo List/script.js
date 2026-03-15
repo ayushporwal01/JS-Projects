@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const newText = prompt("Edit your task: ", taskText)
 
             if(newText) {
-                li.querySelector("span").innerHTML = newText
+                li.querySelector("span").textContent = newText
             
                 tasks = tasks.map(task => 
                     task === taskText ? newText : task
