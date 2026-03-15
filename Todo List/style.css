@@ -50,3 +50,8 @@ input {
     list-style: none;
 }
 
+#taskList li {
+    background: #fff;
+    margin: 5px 0;
+}
+
