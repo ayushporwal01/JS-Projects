@@ -101,11 +101,7 @@ input {
 .icons {
     width: 16px;
     filter: invert(1);
-}
-
-/* Desktop default */
-.icons{
-    display:none;
+    display: none;
 }
 
 .btn-text{
