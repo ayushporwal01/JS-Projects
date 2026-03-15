@@ -14,4 +14,16 @@ document.addEventListener('DOMContentLoaded', () => {
         addTaskBtn(taskInput.value)
         taskInput.value = ""
     })
+
+    function addTask(taskText) {
+        const li = document.createElement("li")
+
+        li.innerHTML = 
+        `<span>{${taskText}</span>
+        <div>
+           <button id="editBtn">Edit</button>
+           <button id="deleteBtn">Delete</button>
+        </div>
+        `
+    }
 })
