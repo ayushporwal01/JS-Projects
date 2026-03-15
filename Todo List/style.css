@@ -74,6 +74,9 @@ input {
     border: none;
     cursor: pointer;
     margin-left: 5px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
 
 .edit-btn {
