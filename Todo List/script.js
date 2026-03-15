@@ -43,9 +43,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         taskList.appendChild(li)
 
-        const editBtn = document.querySelectorAll('.edit-btn')
-        const deleteBtn = document.querySelectorAll('.delete-btn')
-All
+        const editBtn = li.document.querySelector('.edit-btn')
+        const deleteBtn = li.document.querySelector('.delete-btn')
+
         //Edit
         editBtn.addEventListener("click", () => {
             const newText = prompt("Edit your task: ", taskText)
