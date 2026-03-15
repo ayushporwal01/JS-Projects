@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
         taskList.appendChild(li)
 
         //Edit
-        li.querySelector("#edit-btn").addEventListener("click", () => {
+        editBtn.addEventListener("click", () => {
             const newText = prompt("Edit your task: ", taskText)
 
             if(newText) {
@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
         })
      
         //Delete
-        li.querySelector("#delete-btn").addEventListener("click", () => {
+        deleteBtn.addEventListener("click", () => {
             li.remove()
 
             tasks = tasks.filter(task => task != taskText)
