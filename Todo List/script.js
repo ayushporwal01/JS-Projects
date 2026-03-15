@@ -30,7 +30,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
         li.querySelector("#edit-btn").addEventListener("click", () => {
             const newText = prompt("Edit your task: ", taskText)
-            
+
+            if(newText) {
+                li.querySelector("span").innerHTML = newText
+                
+            }
         })
     }
 })
