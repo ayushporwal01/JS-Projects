@@ -27,6 +27,10 @@ document.addEventListener('DOMContentLoaded', () => {
         `
 
         taskList.appendChild(li)
-        
+
+        li.querySelector("#edit-btn").addEventListener("click", () => {
+            const newText = prompt("Edit your task: ", taskText)
+            
+        })
     }
 })
