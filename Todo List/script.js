@@ -35,11 +35,11 @@ document.addEventListener('DOMContentLoaded', () => {
         const isMobile = window.matchMedia("(max-width: 600px)").matches
 
         const editContent = isMobile 
-            ? `<img src="icons/edit.svg" alt="edit" width="16">` 
+            ? `<img src="icons/edit.svg" alt="edit" class="icons">` 
             : `Edit`
 
         const deleteContent = isMobile 
-            ? `<img src="icons/trash.svg" alt="delete" width="16">` 
+            ? `<img src="icons/trash.svg" alt="delete" class="icons">` 
             : `Delete`
 
         li.innerHTML = `
