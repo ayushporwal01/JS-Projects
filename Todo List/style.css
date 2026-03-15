@@ -116,7 +116,7 @@ input {
 @media (min-width:601px){
 
     .btn-text{
-        display:flex;
+        display:block;
     }
 
     .icon{
