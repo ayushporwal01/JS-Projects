@@ -1,7 +1,9 @@
 const url = 'https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=Indore';
+
 const options = {
 	method: 'GET',
 	headers: {
+		'x-rapidapi-key': '5b87635c57mshdadcc4fc2c5c253p16647bjsn3c05481eed35',
 		'x-rapidapi-host': 'weather-by-api-ninjas.p.rapidapi.com',
 		'Content-Type': 'application/json'
 	}
