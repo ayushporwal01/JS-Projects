@@ -32,7 +32,7 @@ async function getWeather() {
 }
 
 searchBtn.addEventListener("click", getWeather);
-searchBtn.addEventListener("keydown", (e) => {
+searchBtn.addEventListener("keypress", (e) => {
     if(e.key === "Enter") {
        getWeather();
     }
