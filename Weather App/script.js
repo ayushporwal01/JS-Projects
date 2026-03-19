@@ -5,6 +5,7 @@ const cityNameEl = document.getElementById('city-name');
 const tempEl = document.getElementById('temp');
 const weatherEl = document.getElementById('weather');
 const humidityEl = document.getElementById('humidity');
+const errorEl = document.getElementById("error");
 
 async function getWeather() {
     const city = cityInput.value;
