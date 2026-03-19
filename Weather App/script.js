@@ -19,9 +19,9 @@ async function getWeather() {
 
         document.getElementById("result").innerHTML = `
           <h3>${data.name}</h3>
-          <p>Temperature: ${temp}C</p>
-          <p>Weather: ${weather}C</p>
-          <p>Humidity: ${humidity}C</p>
+          <p>Temperature: ${temp}°C</p>
+          <p>Weather: ${weather}°C</p>
+          <p>Humidity: ${humidity}%</p>
         `;
     }
 
