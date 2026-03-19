@@ -31,4 +31,6 @@ async function getWeather() {
     }
 }
 
+searchBtn.addEventListener(getWeather);
+
 
