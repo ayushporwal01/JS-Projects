@@ -1,5 +1,5 @@
 const searchBtn = document.getElementById('search-btn')
-const cityInput = document.getElementById('city').value;
+const cityInput = document.getElementById('city');
 
 async function getWeather() {
     const city = cityInput.value;
