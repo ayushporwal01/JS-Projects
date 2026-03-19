@@ -27,7 +27,7 @@ async function getWeather() {
     }
 
     catch(error) {
-      document.getElementById("result").innerHTML = "Error fetching data";
+      document.getElementById("result").textContent = "Error fetching data";
     }
 }
 
