@@ -10,7 +10,7 @@ async function getWeather() {
         const data = await response.json();
 
         if(data.cod !== 200) {
-           document.getElementById("result").innerHTML = "City Not Found!";
+           document.getElementById("result").textContent = "City Not Found!";
            return; 
         }
 
