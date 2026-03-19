@@ -13,7 +13,6 @@ body {
 
 main {
     width: 300px;              /* or any fixed width */
-    margin: auto;
     padding: 20px;
     background: #f4f4f4;
     border-radius: 10px;
