@@ -20,15 +20,7 @@ async function getWeather() {
         if(data.cod !== 200) {
            document.getElementById("result").textContent = "City Not Found!";
            return; 
-        }
-
-        const temp = data.main.temp;
-        const weather = data.weather[0].description;
-        const humidity = data.main.humidity;
-
-        document.getElementById("result").innerHTML = `
-          
-        `;
+        }        
     }
 
     catch(error) {
