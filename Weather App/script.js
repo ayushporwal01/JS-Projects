@@ -1,7 +1,8 @@
 const searchBtn = document.getElementById('search-btn')
+const cityInput = document.getElementById('city').value;
 
 async function getWeather() {
-    const city = document.getElementById('city').value;
+    const city = cityInput.value;
     const apiKey = "50965f50b67b56afdf33799237c592a6";
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
