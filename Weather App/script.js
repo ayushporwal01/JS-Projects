@@ -1,8 +1,8 @@
 const searchBtn = document.getElementById('search-btn');
 const cityInput = document.getElementById('city');
 
-const cityNameEl = document.getElementById('cityNameEle');
-const cityNameEl = document.getElementById('cityNameEle');
+const cityNameEl = document.getElementById('city-name');
+const tempEl = document.getElementById('temp');
 
 async function getWeather() {
     const city = cityInput.value;
