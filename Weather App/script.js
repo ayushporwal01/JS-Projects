@@ -12,5 +12,11 @@ async function getWeather() {
            document.getElementById("result").innerHTML = "City Not Found!";
            return; 
         }
+
+        const temp = data.main.temp;
+        const weather = data.weather[0].description;
+        const humidity = data.main.humidity;
+
+        
     }
 }
