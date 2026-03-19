@@ -3,6 +3,8 @@ const cityInput = document.getElementById('city');
 
 const cityNameEl = document.getElementById('city-name');
 const tempEl = document.getElementById('temp');
+const weatherEl = document.getElementById('weather');
+const humidityEl = document.getElementById('humidity');
 
 async function getWeather() {
     const city = cityInput.value;
