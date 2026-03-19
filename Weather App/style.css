@@ -10,3 +10,9 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+main {
+    border: 1px solid black;
+    width: 30vw;
+    height: 50vh;
+}
