@@ -24,4 +24,8 @@ async function getWeather() {
           <p>Humidity: ${humidity}C</p>
         `;
     }
+
+    catch(error) {
+      document.getElementById("result").innerHTML = "Error fetching data";
+    }
 }
