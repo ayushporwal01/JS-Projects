@@ -18,13 +18,15 @@ async function getWeather() {
         const data = await response.json();
 
         if(data.cod !== 200) {
-           document.getElementById("result").textContent = "City Not Found!";
+           errorEl.textContent = "City Not Found!";
+           clearData();
            return; 
         }        
     }
 
     catch(error) {
       errorEl.textContent = "Error fetching data";
+      clearData();
     }
 }
 
