@@ -21,7 +21,16 @@ async function getWeather() {
            errorEl.textContent = "City Not Found!";
            clearData();
            return; 
-        }        
+        }
+        
+        //Clear error
+        errorEl.textContent = "";
+
+        //Update UI
+        cityNameEl.textContent = data.name;
+        tempEl.textContent = `Temperature: ${data.main.temp} °C`;
+        weatherEl.textContent = `Weather: ${data.weather[0].description}`;
+        humidityEl.textContent = `Humidity: ${data.main.humidity}%`;
     }
 
     catch(error) {
