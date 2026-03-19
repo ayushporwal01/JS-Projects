@@ -14,7 +14,8 @@ body {
 
 main {
     border: 1px solid black;
-    width: 30vw;
+    width: 320px;
+    max-width: 90%;
     height: 50vh;
      display: flex;
     flex-direction: column;
