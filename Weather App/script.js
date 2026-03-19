@@ -17,6 +17,11 @@ async function getWeather() {
         const weather = data.weather[0].description;
         const humidity = data.main.humidity;
 
-        
+        document.getElementById("result").innerHTML = `
+          <h3>${data.name}</h3>
+          <p>Temperature: ${temp}C</p>
+          <p>Weather: ${weather}C</p>
+          <p>Humidity: ${humidity}C</p>
+        `;
     }
 }
