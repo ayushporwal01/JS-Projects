@@ -1,3 +1,4 @@
+const searchBtn = document.getElementById('search-btn')
 
 async function getWeather() {
     const city = document.getElementById('city').value;
@@ -29,3 +30,5 @@ async function getWeather() {
       document.getElementById("result").innerHTML = "Error fetching data";
     }
 }
+
+
