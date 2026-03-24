@@ -40,6 +40,13 @@ async function getWeather() {
     }
 }
 
+function clearData() {
+    cityNameEl.textContent = "";
+    tempEl.textContent = "";
+    weatherEl.textContent = "";
+    humidityEl.textContent = "";
+}
+
 searchBtn.addEventListener("click", getWeather);
 
 cityInput.addEventListener("keydown", (e) => {
@@ -47,5 +54,6 @@ cityInput.addEventListener("keydown", (e) => {
        getWeather();
     }
 });
+
 
 
