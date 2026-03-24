@@ -17,6 +17,7 @@ async function getWeather() {
     try {
         const response = await fetch(url)
         const data = await response.json();
+        console.log(data)
 
         if(data.cod !== 200) {
            errorEl.textContent = "City Not Found!";
@@ -31,8 +32,11 @@ async function getWeather() {
         cityNameEl.textContent = data.name;
         tempEl.textContent = `Temperature: ${data.main.temp} °C`;
         weatherEl.textContent = `Weather: ${data.weather[0].description}`;
-        precipitaitonEl.textContent = `Precipitation: ${data.precipitation[0].description}`;
         humidityEl.textContent = `Humidity: ${data.main.humidity}%`;
+        
+        precipitaitonEl.textContent = data.rain
+        ? `Rain (1h): ${data.rain['1h']} mm`
+        : "Rain: None";
     }
 
     catch(error) {
