@@ -40,20 +40,20 @@ async function getWeather() {
     }
 }
 
+
+searchBtn.addEventListener("click", getWeather);
+
+cityInput.addEventListener("keydown", (e) => {
+    if(e.key === "Enter") {
+        getWeather();
+    }
+});
+
 function clearData() {
     cityNameEl.textContent = "";
     tempEl.textContent = "";
     weatherEl.textContent = "";
     humidityEl.textContent = "";
 }
-
-searchBtn.addEventListener("click", getWeather);
-
-cityInput.addEventListener("keydown", (e) => {
-    if(e.key === "Enter") {
-       getWeather();
-    }
-});
-
 
 
