@@ -4,6 +4,7 @@ const cityInput = document.getElementById('city');
 const cityNameEl = document.getElementById('city-name');
 const tempEl = document.getElementById('temp');
 const weatherEl = document.getElementById('weather');
+const precipitaitonEl = document.getElementById('precipitaiton');
 const humidityEl = document.getElementById('humidity');
 const errorEl = document.getElementById("error");
 
