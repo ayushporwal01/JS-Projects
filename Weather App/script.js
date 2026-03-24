@@ -47,7 +47,6 @@ async function getWeather() {
     }
 }
 
-
 searchBtn.addEventListener("click", getWeather);
 
 cityInput.addEventListener("keydown", (e) => {
