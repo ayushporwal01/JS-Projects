@@ -30,6 +30,7 @@ async function getWeather() {
         cityNameEl.textContent = data.name;
         tempEl.textContent = `Temperature: ${data.main.temp} °C`;
         weatherEl.textContent = `Weather: ${data.weather[0].description}`;
+        precipitationEl.textContent = `Precipitation: ${data.precipitation[0].description}`;
         humidityEl.textContent = `Humidity: ${data.main.humidity}%`;
     }
 
