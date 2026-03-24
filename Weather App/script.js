@@ -35,7 +35,6 @@ async function getWeather() {
     }
 
     catch(error) {
-      errorEl.classList.remove("hidden")
       errorEl.textContent = "Error fetching data";
       clearData();
     }
