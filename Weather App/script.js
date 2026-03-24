@@ -7,6 +7,13 @@ const weatherEl = document.getElementById('weather');
 const humidityEl = document.getElementById('humidity');
 const errorEl = document.getElementById("error");
 
+function clearData() {
+    cityNameEl.textContent = "";
+    tempEl.textContent = "";
+    weatherEl.textContent = "";
+    humidityEl.textContent = "";
+}
+
 async function getWeather() {
     const city = cityInput.value;
     const apiKey = "50965f50b67b56afdf33799237c592a6";
@@ -49,11 +56,5 @@ cityInput.addEventListener("keydown", (e) => {
     }
 });
 
-function clearData() {
-    cityNameEl.textContent = "";
-    tempEl.textContent = "";
-    weatherEl.textContent = "";
-    humidityEl.textContent = "";
-}
 
 
