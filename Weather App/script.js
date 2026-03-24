@@ -34,9 +34,11 @@ async function getWeather() {
         weatherEl.textContent = `Weather: ${data.weather[0].description}`;
         humidityEl.textContent = `Humidity: ${data.main.humidity}%`;
         
-        precipitaitonEl.textContent = data.rain
-        ? `Rain (1h): ${data.rain['1h']} mm`
-        : "Rain: None";
+        const rain = data.rain?.["1h"] || 0;
+
+precipitaitonEl.textContent = rain
+  ? `Rain (1h): ${rain} mm`
+  : "Rain: None";
     }
 
     catch(error) {
